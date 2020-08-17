@@ -1,7 +1,7 @@
 package JavaCodePractice;
 
 public class DeadLock {
-	public void method1() { 
+	public void method() { 
 		synchronized (String.class) { 
 			System.out.println("Aquired lock on String.class object"); 
 			synchronized (Integer.class) { 
